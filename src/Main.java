@@ -3,6 +3,6 @@ public class Main {
 
         Control control = new Control();
         control.start();
-
     }
+
 }

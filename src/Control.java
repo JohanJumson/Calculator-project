@@ -21,17 +21,22 @@ public class Control {
                 case "2":
                     MultiplyOperation.multiply();
                     break;
+                case "3":
+                    AdditionOperation.addition();
+                    break;
+                case "4":
+                    SubtractionOperation.subtraction();
+                    break;
+                case "5":
+                    RemainderOperation.remainder();
+                    break;
 
                 default:
                     System.out.println("error");
             }
 
-
         }
 
-
-
     }
-
 
 }
