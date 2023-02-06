@@ -10,6 +10,7 @@ public class MultiplyOperation {
         int numberOne = scanner.nextInt();
         View.secondOperation();
         int numberTwo = scanner.nextInt();
+
         String mathematicalProcess = "\tThe result of multiplication is  "+numberOne * numberTwo +"\n";
         System.out.println(mathematicalProcess);
 

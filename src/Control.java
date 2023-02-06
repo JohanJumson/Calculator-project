@@ -6,6 +6,7 @@ public class Control {
 
 
         Scanner inputMember = new Scanner(System.in);
+
         Exit:
         for (; ; )
         {
@@ -17,7 +18,6 @@ public class Control {
                 case "1":
                     DivisionOperation.division();
                     break;
-
                 case "2":
                     MultiplyOperation.multiply();
                     break;
@@ -30,9 +30,11 @@ public class Control {
                 case "5":
                     RemainderOperation.remainder();
                     break;
+                case "6":
+                    break Exit;
 
                 default:
-                    System.out.println("error");
+                    View.error();
             }
 
         }

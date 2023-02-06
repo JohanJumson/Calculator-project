@@ -8,6 +8,7 @@ public class View {
         System.out.println("\t\t\t-> Enter  3  to perform the addition operation.");
         System.out.println("\t\t\t-> Enter  4  to perform the subtraction operation.");
         System.out.println("\t\t\t-> Enter  5  to perform the remainder operation.");
+        System.out.println("\t\t\t-> Enter  6  to exit the programme");
 
     }
 
@@ -47,6 +48,11 @@ public class View {
 
     public static void remainderProcess (){
         System.out.println("\tWelcome to the remainder process");
+    }
+
+    public static void error(){
+        System.out.println("There error");
+        System.out.println("Enter the correct operation number\n");
     }
 
 }

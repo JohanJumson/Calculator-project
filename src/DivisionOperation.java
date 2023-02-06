@@ -5,6 +5,7 @@ public class DivisionOperation {
     public static void division(){
 
         Scanner scanner = new Scanner(System.in);
+
         View.mathematicalProcess();
         View.firstOperation();
         int numberOne = scanner.nextInt();
